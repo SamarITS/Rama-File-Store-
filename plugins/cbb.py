@@ -17,7 +17,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ├⍟ Owner : <a href=https://t.me/SheikX_TG><b>𝐒𝐡𝐞𝐢𝐤 𝐗</b></a>
 ├⍟ Version : MR 2.0 [ Stable ]
 ├⍟ Server : VPS
-├⍟ Language : Python 3.10.5
+├⍟ Language : Python 3.10
 ├⍟ Framework : Pyrogram 2.0.97
 ├⍟ Developer : <a href=https://t.me/MR_X_MIRROR><b>𝐌𝐑 𝐗 𝐌𝐈𝐑𝐑𝐎𝐑</b></a>
 ├⍟ Powered By  : <a href=https://t.me/SheikXMoviesOffl><b>𝐒𝐡𝐞𝐢𝐤𝐗𝐌𝐨𝐯𝐢𝐞𝐬𝐎𝐟𝐟𝐥</b></a>
