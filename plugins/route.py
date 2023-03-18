@@ -1,3 +1,4 @@
+#(©)MR-X-MIRROR-BOTZ
 #rymme
 from aiohttp import web
 
