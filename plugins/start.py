@@ -9,6 +9,19 @@ from bot import Bot
 from config import ADMINS, FORCE_MSG, START_MSG, START_PIC, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT
 from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
+from pyrogram.filters import Filter
+
+class IsSubscribed(Filter):
+    def __init__(self, channel_id):
+        self.channel_id = channel_id
+
+    async def __call__(self, _, __, message: Message):
+        # Implement your subscription logic here
+        # Return True if the user is subscribed; otherwise, False
+        return True  # Replace with actual subscription check logic
+
+# Create an instance of the filter
+subscribed = IsSubscribed(channel_id=-1001884177204)  # Replace with your channel ID
 
 
 @Bot.on_message(filters.command('start') & filters.private)
